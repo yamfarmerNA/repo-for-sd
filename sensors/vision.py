@@ -1,3 +1,6 @@
+# Provides target tracking errors based on camera input.
+
+# Currently generates simulated values for testing, later will be replaced with object tracking.
 import random
 
 def get_vision_error():
