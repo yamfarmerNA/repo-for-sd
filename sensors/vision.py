@@ -5,10 +5,12 @@ import random
 
 def get_vision_error():
     """
+    Simulates vision tracking errors
+    
     Returns normalized errors:
-    error_x: -1 to 1
-    error_y: -1 to 1
-    error_z: distance error
+    error_x: Horizontal offset from center (-1 to 1)
+    error_y: Vertical offset from center (-1 to 1)
+    error_z: Distance error based on target size
     """
 
     # Mock values for testing
